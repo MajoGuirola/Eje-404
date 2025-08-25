@@ -41,4 +41,25 @@ A continuación, mostraremos una tabla donde indica el amperaje y voltaje que ca
 |XL4015 (B)  | 1  | -  | -  | 8.4v  | B  |
 
 
-# Uso de los sensores
+# Aplicación de los sensores
+Nuestro proyecto cuenta con la siguiente lista de sensores y una breve descripción de su funcionamiento. 
+
+| Nombre   | Función |
+|---|---|
+|Pixy 2.1  | Detectar objetos, colores y posiciones |
+|hc-sr04   | Medir distancias del carro hacia la pared  |
+|MPU6500/ 9250    | Calcular que el giro sea de 90° exactos y que el carro vuelva a posición inicial   |
+
+  
+Ejemplo de su función en la primera prueba:
+-	Los sensores de distancia miden los centímetros que hay de lejanía hacia las paredes.
+-	Si los sensores marcan más de 120cm. Se guarda el valor de rotación antes del giro, y el carro comienza a girar hasta completar +- 90° de rotación
+
+# Elaboración del chasis
+Se realizó el diseño en un archivo .stl de Tinkercad, con diversas figuras geométricas como círculos, rectángulos y triángulos. El chasis es de doble nivel para poder tener orden y varios componentes en un espacio reducido. En el primer nivel esta el motor, el puente H el sistema de dirección. En el segundo nivel se encuentra la mayor parte de la electrónica. 
+
+
+El chasis en ciertos tramos es más angosto para permitirle a las llantas tener un rango amplio de rotación, así mismo, posee ranuras para insertar los SR-04. También posee una carcasa para guardar de manera segura y estable el Arduino Mega 2560. Debajo de esta carcasa hay un prisma rectangular con las medidas de los porta pilas, donde va atornillado uno a cada lado. Esto nos deja en un espacio reducido, una posición cómoda para retirar y colocar las pilas. 
+
+
+Y para la dirección en el chasis simplemente se dejaron unos huecos cilíndricos para acoplar el antes mencionado sistema de dirección tipo Ackermann.
