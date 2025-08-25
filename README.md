@@ -27,14 +27,18 @@ A continuación, mostraremos una tabla donde indica el amperaje y voltaje que ca
 
 | Nombre   | Cantidad | Amperaje  | Amperaje Total  | Voltaje  | Porta pilas |
 |---|---|---|---|---|---|
-|Motor DC  |   |   |   |   |   |
-|Servomotor mg90s   |   |   |   |   |   |
-|SR-HC04  |   |   |   |   |   |
-|Pixy 2.1  |   |   |   |   |   |
-|L298n  |   |   |   |   |   |
-|MPU6050  |   |   |   |   |   |
-|Sensor Shield  |   |   |   |   |   |
-|Switch A  |   |   |   |   |   |
-|Switch B  |   |   |   |   |   |
-|XL4015 (A)  |   |   |   |   |   |
-|XL4015 (B)  |   |   |   |   |   |
+|Motor DC  | 1  | 1.5A  | 1.5A  | 8.4v  | B  |
+|Servomotor mg90s   | 1  | 2.7mA  | 2.7 mA  | 5v  | A  |
+|SR-HC04  | 3  | 15mA  | 45mA  | 5v  | A  |
+|Pixy 2.1  | 1  | 140mA  | 140mA  | 5v  | A  |
+|L298n  | 1  | 250mA  | 250mA  | 8.4v  | B  |
+|MPU9250  | 1  | 3.2mA  | 3.2mA  | 3.3v  | B  |
+|Sensor Shield  | 1  | 40mA  | 40mA  | 5v  | A  |
+|Arduino Mega 2560  | 1  | 40mA  | 40mA  | 5v  | A  |
+|Switch A  | 1  | -  | -  | 8.4v  | A  |
+|Switch B  | 1  | -  | -  | 8.4v  | B  |
+|XL4015 (A)  | 1  | -  | -  | 8.4v  | A  |
+|XL4015 (B)  | 1  | -  | -  | 8.4v  | B  |
+
+
+# Uso de los sensores
