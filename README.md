@@ -81,7 +81,6 @@ El chasis en ciertos tramos es más angosto para permitirle a las llantas tener 
 
 <img width="642" height="455" alt="Top" src="https://github.com/user-attachments/assets/4d5f98c6-39e2-42e9-8911-60c60167d18d" />
 
-
 <img width="886" height="547" alt="Base" src="https://github.com/user-attachments/assets/5f067596-aa3f-4893-93b5-13136ad54390" />
 
 
@@ -89,3 +88,8 @@ Y para la dirección en el chasis simplemente se dejaron unos huecos cilíndrico
 
 
 <img width="772" height="492" alt="Ackermann" src="https://github.com/user-attachments/assets/7038dea7-b2af-4287-911f-2d376f40de85" />
+
+# Video del funcionamiento del carro
+Los siguientes enlaces dirigen a unos video de YouTube.
+- Desafío Abierto: https://www.youtube.com/watch?v=P1GkdY8hNag
+- Desafío con Obstáculos: 
