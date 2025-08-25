@@ -12,7 +12,10 @@ Los integrantes de este grupo somos:
 # Movilidad del carro 
 Este carro contiene 2 motores. El primero motor es un motor DC con caja reductora que trabaja de 5 a 9 v y 1.5 amperios que maneja su avance y retroceso, con una tracción trasera. El motor tiene un engranaje en su eje que no es perfectamente circular, más conocido como eje tipo D o D shaft, para que pueda generar torque con el engranaje sin que se deslice o resbale. El engranaje se conecta con otro idéntico a este, que está unido a un eje largo estriado el cual contiene las llantas a sus extremos. Logrando así, un sistema de transmisión por engranaje. Al tener el mismo tamaño y cantidad de dientes se mantiene la misma velocidad y torque, sin embargo, la dirección de giro se invierte por el principio de inversión del sentido de giro en engranajes. El segundo motor es un servomotor mg90s, color negro y de engranajes metálicos. Este controla la dirección delantera del automóvil. Se adaptó en 2 partes cruciales para replicar la dirección Ackermann en función de nuestro espacio y posibilidades.
 
+
 La primera pieza, que simula una barra de acoplamiento es un prisma rectangular horizontal con un hueco rectangular vertical al medio, para incrustar una pieza metálica que hace de votante con un pico que apunta hacia el suelo y hace el juego para el movimiento. El movimiento es transmitido por el servomotor que está atornillado a esta placa.
+
+
 La segunda parte son las portamanguetas o knuckles, sujetan a las llantas y les transmiten la dirección. Estas piezas se asemejan a un L, ya que poseen 3 kingpins, 2 paralelos para unirse al chasis del carro y otro para unirse a la barra de acoplamiento y con un hueco cilíndrico para el eje independiente de cada rueda. Cuando la barra se desplaza hacia un costado, debido a los kingping y el límite que les coloca el chasis, ellas giran sobre su propio eje, replicando este giro a las llantas.
 
 
@@ -54,12 +57,24 @@ Nuestro proyecto cuenta con la siguiente lista de sensores y una breve descripci
 Ejemplo de su función en la primera prueba:
 -	Los sensores de distancia miden los centímetros que hay de lejanía hacia las paredes.
 -	Si los sensores marcan más de 120cm. Se guarda el valor de rotación antes del giro, y el carro comienza a girar hasta completar +- 90° de rotación
+  
 
 # Elaboración del chasis
 Se realizó el diseño en un archivo .stl de Tinkercad, con diversas figuras geométricas como círculos, rectángulos y triángulos. El chasis es de doble nivel para poder tener orden y varios componentes en un espacio reducido. En el primer nivel esta el motor, el puente H el sistema de dirección. En el segundo nivel se encuentra la mayor parte de la electrónica. 
 
 
+<img width="580" height="542" alt="Completo" src="https://github.com/user-attachments/assets/59058a28-2b01-4d87-9071-ef0f9ef51f03" />
+
 El chasis en ciertos tramos es más angosto para permitirle a las llantas tener un rango amplio de rotación, así mismo, posee ranuras para insertar los SR-04. También posee una carcasa para guardar de manera segura y estable el Arduino Mega 2560. Debajo de esta carcasa hay un prisma rectangular con las medidas de los porta pilas, donde va atornillado uno a cada lado. Esto nos deja en un espacio reducido, una posición cómoda para retirar y colocar las pilas. 
 
 
+<img width="642" height="455" alt="Top" src="https://github.com/user-attachments/assets/4d5f98c6-39e2-42e9-8911-60c60167d18d" />
+
+
+<img width="886" height="547" alt="Base" src="https://github.com/user-attachments/assets/5f067596-aa3f-4893-93b5-13136ad54390" />
+
+
 Y para la dirección en el chasis simplemente se dejaron unos huecos cilíndricos para acoplar el antes mencionado sistema de dirección tipo Ackermann.
+
+
+<img width="772" height="492" alt="Ackermann" src="https://github.com/user-attachments/assets/7038dea7-b2af-4287-911f-2d376f40de85" />
