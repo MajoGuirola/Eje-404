@@ -2,6 +2,8 @@
 Somos un equipo de WRO Future Engineers 2025 de El Salvador. En este proyecto empleamos mecánica, electrónica y robótica para poder completar todas las fases de esta categoría. En este proyecto se utilizó diseño 3D con impresión de filamento PLA, Arduino Mega 2560, placa de expansión para sensores, baterías 18650, reductores de voltaje, engranajes, etc.
 
 
+![WhatsApp Image 2025-08-25 at 5 22 19 PM](https://github.com/user-attachments/assets/298587d8-11a1-46da-aa67-f632e7821b3c)
+
 Los integrantes de este grupo somos:
 
 - María José Guirola         - Miembro del equipo
@@ -10,7 +12,15 @@ Los integrantes de este grupo somos:
 
 
 # Movilidad del carro 
-Este carro contiene 2 motores. El primero motor es un motor DC con caja reductora que trabaja de 5 a 9 v y 1.5 amperios que maneja su avance y retroceso, con una tracción trasera. El motor tiene un engranaje en su eje que no es perfectamente circular, más conocido como eje tipo D o D shaft, para que pueda generar torque con el engranaje sin que se deslice o resbale. El engranaje se conecta con otro idéntico a este, que está unido a un eje largo estriado el cual contiene las llantas a sus extremos. Logrando así, un sistema de transmisión por engranaje. Al tener el mismo tamaño y cantidad de dientes se mantiene la misma velocidad y torque, sin embargo, la dirección de giro se invierte por el principio de inversión del sentido de giro en engranajes. El segundo motor es un servomotor mg90s, color negro y de engranajes metálicos. Este controla la dirección delantera del automóvil. Se adaptó en 2 partes cruciales para replicar la dirección Ackermann en función de nuestro espacio y posibilidades.
+Este carro contiene 2 motores. El primero motor es un motor DC con caja reductora que trabaja de 5 a 9 v y 1.5 amperios que maneja su avance y retroceso, con una tracción trasera. El motor tiene un engranaje en su eje que no es perfectamente circular, más conocido como eje tipo D o D shaft, para que pueda generar torque con el engranaje sin que se deslice o resbale. El engranaje se conecta con otro idéntico a este, que está unido a un eje largo estriado el cual contiene las llantas a sus extremos. Logrando así, un sistema de transmisión por engranaje. Al tener el mismo tamaño y cantidad de dientes se mantiene la misma velocidad y torque, sin embargo, la dirección de giro se invierte por el principio de inversión del sentido de giro en engranajes.
+
+
+![rotaciondireccion](https://github.com/user-attachments/assets/462d1538-3468-47a0-b13f-a070ef1bd234)
+
+El segundo motor es un servomotor mg90s, color negro y de engranajes metálicos. Este controla la dirección delantera del automóvil. Se adaptó en 2 partes cruciales para replicar la dirección Ackermann en función de nuestro espacio y posibilidades.
+
+
+![Ackermann](https://github.com/user-attachments/assets/90010e27-ea82-4667-a6bf-ee9f496ea459)
 
 
 La primera pieza, que simula una barra de acoplamiento es un prisma rectangular horizontal con un hueco rectangular vertical al medio, para incrustar una pieza metálica que hace de votante con un pico que apunta hacia el suelo y hace el juego para el movimiento. El movimiento es transmitido por el servomotor que está atornillado a esta placa.
