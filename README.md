@@ -2,7 +2,8 @@
 Somos un equipo de WRO Future Engineers 2025 de El Salvador. En este proyecto empleamos mecánica, electrónica y robótica para poder completar todas las fases de esta categoría. En este proyecto se utilizó diseño 3D con impresión de filamento PLA, Arduino Mega 2560, placa de expansión para sensores, baterías 18650, reductores de voltaje, engranajes, etc.
 
 
-![WhatsApp Image 2025-08-25 at 5 22 19 PM](https://github.com/user-attachments/assets/298587d8-11a1-46da-aa67-f632e7821b3c)
+<img width="276" height="370" alt="Captura de pantalla 2025-08-25 173706" src="https://github.com/user-attachments/assets/78911d5d-6f55-418c-a46e-7ddb2cf233fd" />
+
 
 Los integrantes de este grupo somos:
 
