@@ -2,14 +2,14 @@
 Somos un equipo de WRO Future Engineers 2025 de El Salvador. En este proyecto empleamos mecánica, electrónica y robótica para poder completar todas las fases de esta categoría. En este proyecto se utilizó diseño 3D con impresión de filamento PLA, Arduino Mega 2560, placa de expansión para sensores, baterías 18650, reductores de voltaje, engranajes, etc.
 
 
-<img width="276" height="370" alt="Captura de pantalla 2025-08-25 173706" src="https://github.com/user-attachments/assets/78911d5d-6f55-418c-a46e-7ddb2cf233fd" />
-
-
 Los integrantes de este grupo somos:
 
 - María José Guirola         - Miembro del equipo
 - Mauricio Andrés Valladares - Miembro del equipo
 - Rocío Elizabeth Ortiz      - Coach del equipo
+
+
+![IMG_0649 (1)](https://github.com/user-attachments/assets/29ea236c-5d94-420e-84c5-a5d48309eb3a)
 
 
 # Movilidad del carro 
