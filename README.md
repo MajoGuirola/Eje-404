@@ -92,4 +92,5 @@ Y para la dirección en el chasis simplemente se dejaron unos huecos cilíndrico
 # Video del funcionamiento del carro
 Los siguientes enlaces dirigen a unos video de YouTube.
 - Desafío Abierto: https://www.youtube.com/watch?v=P1GkdY8hNag
-- Desafío con Obstáculos: 
+- Desafío con Obstáculos: https://youtu.be/nsJtDzOKY1s?si=_sqzlHXAPlJbcss0
+
